@@ -11,7 +11,7 @@ const introduction = [
   {
     type: 'system',
     label: 'System',
-    content: `cd 〖V社〗一级市场的灰度基金`
+    content: `cd 〖V社〗`
   },
   {
     type: 'system',
@@ -21,32 +21,47 @@ const introduction = [
   {
     time: getTime(),
     type: 'info',
-    label: '名字:',
-    content: '〖V社〗'
+    label: '社区:',
+    content: '〖 V 社 〗'
   },
   {
     time: getTime(),
     type: 'info',
-    label: '性质:',
-    content: '一级市场的灰度基金'
+    label: '说明:',
+    content: '【V社】华人世界与一级市场里的灰度基金，一级市场潜力新币种风向标。'
   },
   {
     time: getTime(),
     type: 'info',
-    label: '创建时:',
-    content: '100'
+    label: '创建于:',
+    content: '2021-9-0'
+  },
+  // {
+  //   time: getTime(),
+  //   type: 'info',
+  //   label: '邮箱:',
+  //   content: '〖V社〗一级市场的灰度基金'
+  // },
+  {
+    time: getTime(),
+    type: 'info',
+    label: '目标:',
+    content: '为币圈鲸鱼部落传播主流投资理念，挖掘价值项目，发展成为最大的社区信息分享部落。'
   },
   {
     time: getTime(),
     type: 'info',
-    label: '邮箱:',
-    content: '〖V社〗一级市场的灰度基金'
-  },
-  {
-    time: getTime(),
-    type: 'info',
-    label: 'Aim:',
-    content: '〖V社〗一级市场的灰度基金:'
+    label: '介绍:',
+    content: `V社是以VT为核心（VT是 #BabyDoge 、 $GHC  第一大户）,聚集了一批资金雄厚的个人投资者和机构投资者，共同创建而成。
+      团队规模：精英团队规模超百人，且持续发展壮大中,内设社区技术部、宣传营销部、外交部,现于各大社区&平台正在密切合作中。
+      社区宗旨：旨在传播主流投资理念，排除各种貔貅盘，挖掘价值项目，实现社区投资者资产稳定增长。
+      社区福利：同时不定期在社区内进行白名单私募抽奖，发红包，空投，为V社区共建者谋福利。
+      电报链接：https://t.me/BestVCommunity
+      推特链接：https://twitter.com/VCChinese
+      
+      VT推特链接：https://twitter.com/BestNewCoin
+      
+      欢迎您的关注，也欢迎您的加入`
   },
 ]
 
