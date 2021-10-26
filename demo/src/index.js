@@ -1,3 +1,9 @@
+/*
+ * @description: 
+ * @Date: 2021-10-26 12:35:00
+ * @LastEditors: am
+ * @LastEditTime: 2021-10-27 00:57:52
+ */
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
@@ -10,7 +16,7 @@ const cmd = { dynamicList, staticList }
 const config = {
   prompt: '➜  ~ ',
   version: '1.0.0',
-  initialDirectory: '一个坏掉的番茄',
+  initialDirectory: 'V社-一级市场灰度基金社区',
   bootCmd: 'intro'
 }
 
