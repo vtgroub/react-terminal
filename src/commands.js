@@ -1,20 +1,26 @@
+/*
+ * @description: 
+ * @Date: 2021-10-26 12:35:00
+ * @LastEditors: am
+ * @LastEditTime: 2021-10-26 12:49:11
+ */
 export const systemCmdList = {
   clear: {
     type: 'system',
     label: 'System',
-    content: 'Type "clear" to clear the terminal screen.',
+    content: '输入 "clear" 清理屏幕.',
     aliasList: ['clear', 'cls']
   },
   help: {
     type: 'system',
     label: 'System',
-    content: 'Type "help" to get a supporting command list.',
+    content: '输入 "help" 获取命令列表.',
     aliasList: ['help', 'ls']
   },
   exit: {
     type: 'system',
     label: 'System',
-    content: 'Type "exit" to return to the main page.',
+    content: '输入 "exit" 返回.',
     aliasList: ['exit', 'back']
   },
   pwd: {
