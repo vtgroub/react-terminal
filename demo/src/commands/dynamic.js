@@ -53,15 +53,44 @@ const introduction = [
     type: 'info',
     label: '介绍:',
     content: `V社是以VT为核心（VT是 #BabyDoge 、 $GHC  第一大户）,聚集了一批资金雄厚的个人投资者和机构投资者，共同创建而成。
-      团队规模：精英团队规模超百人，且持续发展壮大中,内设社区技术部、宣传营销部、外交部,现于各大社区&平台正在密切合作中。
-      社区宗旨：旨在传播主流投资理念，排除各种貔貅盘，挖掘价值项目，实现社区投资者资产稳定增长。
-      社区福利：同时不定期在社区内进行白名单私募抽奖，发红包，空投，为V社区共建者谋福利。
-      电报链接：https://t.me/BestVCommunity
-      推特链接：https://twitter.com/VCChinese
-      
-      VT推特链接：https://twitter.com/BestNewCoin
       
       欢迎您的关注，也欢迎您的加入`
+  },
+  {
+    time: getTime(),
+    type: 'info',
+    label: ' 团队规模:',
+    content: '精英团队规模超百人，且持续发展壮大中,内设社区技术部、宣传营销部、外交部,现于各大社区&平台正在密切合作中。'
+  },
+  {
+    time: getTime(),
+    type: 'info',
+    label: ' 社区宗旨:',
+    content: '旨在传播主流投资理念，排除各种貔貅盘，挖掘价值项目，实现社区投资者资产稳定增长。'
+  },
+  {
+    time: getTime(),
+    type: 'info',
+    label: ' 社区福利:',
+    content: '同时不定期在社区内进行白名单私募抽奖，发红包，空投，为V社区共建者谋福利。'
+  },
+  {
+    time: getTime(),
+    type: 'info',
+    label: ' 电报链接:',
+    content: 'https://t.me/BestVCommunity'
+  },
+  {
+    time: getTime(),
+    type: 'info',
+    label: ' 推特链接:',
+    content: `https://twitter.com/VCChinese`
+  },
+  {
+    time: getTime(),
+    type: 'info',
+    label: ' VT推特链接:',
+    content: 'https://twitter.com/BestNewCoin'
   },
 ]
 
