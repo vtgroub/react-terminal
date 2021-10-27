@@ -11,6 +11,7 @@ import {
   StyledLoadingCursor,
   StyledBlinkCursor,
   StyledCommand,
+  StyledCommanda,
   StyledLine,
   StyledHeader,
   StyledHeaderTitle,
@@ -279,7 +280,7 @@ class Terminal extends PureComponent {
                       : (<>
                         {item.time && (<StyledCommand className="time">{item.time}</StyledCommand>)}
                         {item.label && (<StyledCommand className={item.type}>{item.label}</StyledCommand>)}
-                        {item.content && (<StyledCommand className="cmd">{item.content}</StyledCommand>)}
+                        {item.content &&item.content.includes('https://')?(<StyledCommanda className="cmd"  href={item.content} target="_blank">{item.content}</StyledCommanda>):item.content && (<StyledCommand className="cmd">{item.content}</StyledCommand>)}
                       </>)}
                   </StyledLine>
                 </CSSTransition>

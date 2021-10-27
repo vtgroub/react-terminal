@@ -216,3 +216,7 @@ export const StyledHeaderDotItem = styled.li`
 export const StyledCommand = styled.span`
   font-size: inherit;
 `
+export const StyledCommanda = styled.a`
+  color: #ccc;
+  font-size: inherit;
+`
