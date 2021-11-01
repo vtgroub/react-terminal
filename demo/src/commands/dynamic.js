@@ -34,7 +34,7 @@ const introduction = [
     time: getTime(),
     type: 'info',
     label: '创建于:',
-    content: '2021-9-0'
+    content: '2021-10-08'
   },
   // {
   //   time: getTime(),
